@@ -1,0 +1,120 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.logo,
+.name,
+.portfolio_pic,
+.about_me, .skills,
+.quote,
+.contact,
+img,
+div.gallery {
+	width: 100%;
+}
+@media screen and (min-width: 760px) {
+	#logo {
+		margin-left: auto;
+		margin-right: auto;
+		width: 33%;
+	}
+	.name {
+		width: 67%;
+		text-align: right;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 450px) {
+	.B1 {
+		display: block;
+		margin-left: 4em;
+	}
+	.logo_mb {
+		margin-left: 2.8em;
+		margin-top: 2em;
+		width: 65%;
+		height: 50%;
+	}
+	.name {
+		width: 100%;
+		text-align: center;
+	}
+	.about_me p {
+		font-size: 20px;
+		padding: 0;
+	}
+	.about_me {
+		padding: 1em;
+	}
+	div.gallery {
+		width: 100%;
+		margin-top: 1.2em;
+	}
+	.f_img {
+		margin-top: 2em;
+		margin-left: 8em;
+	}
+}
+@media screen and (min-width: 450px) {
+	.B1 {
+		display: flex;
+		width: 100%;
+	}
+	.name {
+		width: 70%;
+		text-align: right;
+		padding-right: 2em;
+	}
+	.logo_mb {
+		margin-top: 1.8em;
+	}
+	.logo {
+		width: 30%;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	.about_me p {
+		font-size: 17px;
+		padding: 0;
+		margin: 0;
+	}
+	div.gallery {
+		width: 100%;
+		margin-top: 1.2em;
+	}
+	.f_img {
+		width: 20%;
+	}
+	.f_content {
+		width: 80%;
+	}
+	.footer_img {
+		float: right;
+	}
+	.f_content p {
+		text-align: left;
+		padding-left: 0.4em;
+	}
+	@media screen and (min-width: 600px) {
+		.skills {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		div.gallery {
+			width: 31%;
+			margin: 0.5em;
+		}
+	}
+	@media screen and (min-width: 900px) {
+		.container {
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
